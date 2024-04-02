@@ -28,8 +28,10 @@ class PascalVOCDataset(Dataset):
         # Read data files
         with open(os.path.join(data_folder, self.split + '_images.json'), 'r') as j:
             self.images = json.load(j)
+            print(self.images)
         with open(os.path.join(data_folder, self.split + '_objects.json'), 'r') as j:
             self.objects = json.load(j)
+            print(self.objects)
 
         assert len(self.images) == len(self.objects)
 
