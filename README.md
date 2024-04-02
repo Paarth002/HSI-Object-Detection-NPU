@@ -1,8 +1,9 @@
 # HSI-Object-Detection-NPU
-Update Readme check
 
-We have released our dataset proposed in paper 'Object Detection in Hyperspectral Images'. 
-Raw hyperspectral images and processed data (96-channel) can be found at [[baidu cloud]( https://pan.baidu.com/s/1mtXDJfU6M8F60GZinLam-w), password: 6shr],
+Update Readme check2
+
+We have released our dataset proposed in paper 'Object Detection in Hyperspectral Images'.
+Raw hyperspectral images and processed data (96-channel) can be found at [[baidu cloud](https://pan.baidu.com/s/1mtXDJfU6M8F60GZinLam-w), password: 6shr],
 [[Onedrive](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/yanlongbin_mail_nwpu_edu_cn/ERsB07TPh8RGrNpsgIejn38B0rmwzJEBgLmL5hzwvYlV7g?e=Upk6iW)].
 
 ![](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU/blob/main/fig/results.png)
@@ -18,6 +19,7 @@ libtiff==0.4.2
 2.Training
 
 generate label json file
+
 ```
 python create_data_lists.py
 ```
@@ -27,6 +29,7 @@ then
 ```
 python train.py
 ```
+
 Note that due to samll scale of training dataset, the mAP may have relatively large jitters (about 2 mAP) with different random seeds.
 
 3.Eval
