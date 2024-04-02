@@ -1,6 +1,6 @@
 # HSI-Object-Detection-NPU
 
-Update Readme check2
+Update Readme check3
 
 We have released our dataset proposed in paper 'Object Detection in Hyperspectral Images'.
 Raw hyperspectral images and processed data (96-channel) can be found at [[baidu cloud](https://pan.baidu.com/s/1mtXDJfU6M8F60GZinLam-w), password: 6shr],
